@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm -F main build",
+    "main:dev": "pnpm -F main dev",
+    "sub1:dev": "pnpm -F sub1 dev",
+    "sub2:dev": "pnpm -F sub2 dev",
+    "main:build": "pnpm -F main build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
